@@ -1,0 +1,2880 @@
+{
+  "current": {
+    "color_body_bg": "#ffffff",
+    "color_body_text": "#000000",
+    "color_borders": "#e8e8e1",
+    "color_button": "#4a7d71",
+    "color_button_text": "#fff",
+    "color_cart_dot": "#ff4f33",
+    "color_header": "#ffffff",
+    "color_header_text": "#000",
+    "color_announcement": "#1c1d1d",
+    "color_announcement_text": "#fff",
+    "color_footer": "#4a7d71",
+    "color_footer_text": "#f4f4f4",
+    "color_drawer_background": "#ffffff",
+    "color_drawer_text": "#000000",
+    "color_drawer_border": "#e8e8e1",
+    "color_drawer_button": "#111111",
+    "color_drawer_button_text": "#4a7d71",
+    "color_modal_overlays": "#000",
+    "color_image_text": "#fff",
+    "color_image_2": "#000000",
+    "color_image_2_opacity": 0,
+    "color_image_1": "#000000",
+    "color_image_1_opacity": 62,
+    "color_small_image_bg": "#fff",
+    "color_large_image_bg": "#111111",
+    "type_header_font_family": "century_gothic_n7",
+    "type_header_spacing": "0",
+    "type_header_base_size": 40,
+    "type_header_line_height": 1.2,
+    "type_header_accent_transform": true,
+    "type_headers_align_text": true,
+    "type_base_font_family": "futura_n4",
+    "type_base_spacing": "25",
+    "type_base_size": 20,
+    "type_base_line_height": 1.6,
+    "type_base_accent_transform": true,
+    "icon_weight": "4px",
+    "icon_linecaps": "miter",
+    "animate_page_transitions": true,
+    "animate_page_transition_style": "page-slow-fade",
+    "animate_sections": true,
+    "animate_sections_background_style": "zoom-fade",
+    "animate_sections_text_style": "rise-up",
+    "animate_images": false,
+    "animate_images_style": "zoom-fade",
+    "animate_buttons": true,
+    "animate_underlines": true,
+    "vendor_enable": false,
+    "sku_enable": false,
+    "quantity_enable": false,
+    "variant_labels_enable": true,
+    "variant_type": "button",
+    "enable_payment_button": true,
+    "inventory_enable": false,
+    "inventory_threshold": 10,
+    "inventory_transfers_enable": false,
+    "product_save_amount": true,
+    "product_save_type": "dollar",
+    "product_zoom_enable": true,
+    "quick_shop_enable": true,
+    "quick_shop_text": "Quick view",
+    "product_hover_image": true,
+    "product_grid_image_size": "natural",
+    "product_color_swatches": true,
+    "collection_color_swatches": true,
+    "product_video_width": "1280",
+    "product_video_height": "720",
+    "product_video_style": "muted",
+    "product_content_1": "",
+    "product_content_2": "",
+    "product_content_3": "",
+    "product_contact": false,
+    "product_contact_title": "Ask a question",
+    "product_contact_show_phone": false,
+    "enable_product_reviews": false,
+    "reviews_layout": "expandable",
+    "cart_type": "page",
+    "cart_additional_buttons": true,
+    "cart_notes_enable": false,
+    "cart_terms_conditions_enable": true,
+    "cart_terms_conditions_link": "shopify:\/\/policies\/terms-of-service",
+    "enable_currencies": true,
+    "currency_format": "money_format",
+    "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+    "social_facebook_link": "",
+    "social_twitter_link": "",
+    "social_pinterest_link": "",
+    "social_instagram_link": "",
+    "social_snapchat_link": "",
+    "social_tumblr_link": "",
+    "social_linkedin_link": "",
+    "social_youtube_link": "",
+    "social_vimeo_link": "",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "homepage_social_image": "",
+    "favicon": "",
+    "show_breadcrumbs": false,
+    "search_type": "product,article,page",
+    "checkout_logo_image": "shopify:\/\/shop_images\/longrun-logo-green_1200w.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_color": "rgba(0,0,0,0)",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#77ad96",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#77ad96",
+    "checkout_button_color": "#77ad96",
+    "checkout_error_color": "#ff6d6d",
+    "default_currency": "USD",
+    "color_image_bg": "#000000",
+    "breadcrumb": true,
+    "color_sale_tag": "#990000",
+    "color_input": "#ffffff",
+    "checkout_banner_background_color": "#fff",
+    "checkout_call_to_action_color": "#a26b25",
+    "checkout_use_header_image": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "1583179506445": {
+            "type": "logo",
+            "settings": {
+              "desktop_logo_width": 200,
+              "mobile_logo_width": 140
+            }
+          }
+        },
+        "block_order": [
+          "1583179506445"
+        ],
+        "settings": {
+          "main_menu_link_list": "main-menu",
+          "main_menu_alignment": "left",
+          "header_style": "normal",
+          "sticky_index": true,
+          "sticky_collection": false,
+          "header_search_enable": true,
+          "type_navigation_size": 18,
+          "type_navigation_style": true,
+          "show_announcement": false,
+          "announcement_text": "OPENING SOON!",
+          "announcement_link": "",
+          "announcement_closable": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "1573570050578": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "footer",
+              "container_width": 20
+            }
+          },
+          "1494301487049": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "",
+              "container_width": 20
+            }
+          },
+          "1494292485313": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "",
+              "container_width": 20
+            }
+          },
+          "1573569950796": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "",
+              "container_width": 20
+            }
+          },
+          "1573569965674": {
+            "type": "menu",
+            "settings": {
+              "show_footer_title": true,
+              "menu": "",
+              "container_width": 20
+            }
+          },
+          "1494292481350": {
+            "type": "logo_social",
+            "settings": {
+              "desktop_logo_height": 120,
+              "container_width": 42
+            }
+          },
+          "1573570017249": {
+            "type": "newsletter",
+            "settings": {
+              "show_footer_title": true,
+              "title": "JOIn us on our journey",
+              "richtext": "",
+              "container_width": 58
+            }
+          }
+        },
+        "block_order": [
+          "1573570050578",
+          "1494301487049",
+          "1494292485313",
+          "1573569950796",
+          "1573569965674",
+          "1494292481350",
+          "1573570017249"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "show_copyright": true,
+          "copyright_text": ""
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "per_row": 2,
+          "collection_image_enable": true,
+          "parallax": false,
+          "description_position": "top",
+          "collection_subnav_style": "inline",
+          "collection_tags_style": "dropdown",
+          "collection_sort_enable": true
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "description_style": "default",
+          "social_enable": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_image": true,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false,
+          "social_sharing_blog": true
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "blog_show_tag_filter": true,
+          "blog_show_rss": true,
+          "blog_show_tags": true,
+          "blog_show_date": true,
+          "blog_show_comments": true,
+          "blog_show_author": false
+        }
+      },
+      "1499790731541": {
+        "type": "collection-callout",
+        "settings": {
+          "collection": "",
+          "subtitle": "This Just in!",
+          "title": "Meet the LR1",
+          "text": "The original LongRun shoe: classic, simple, comfortable and sustainable. All you could ever want in a shoe.",
+          "cta_text1": "Shop All",
+          "cta_link1": "shopify:\/\/collections\/all",
+          "cta_text2": "Your shoe's impact",
+          "cta_link2": "shopify:\/\/pages\/our-impact",
+          "layout": "right",
+          "divider": false
+        }
+      },
+      "product-sections-template": {
+        "type": "product-sections-template",
+        "blocks": {
+          "75bbfbeb-6a80-4428-a906-a9185ab498f3": {
+            "type": "custom-block-st-img",
+            "settings": {
+              "st_img": "shopify:\/\/shop_images\/Step_1.png"
+            }
+          },
+          "6d0c1486-f415-47e4-896c-7d4bf84c16e1": {
+            "type": "custom-block-img-title",
+            "settings": {
+              "title": "Title",
+              "img": "shopify:\/\/shop_images\/bread-2920173_1920.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "75bbfbeb-6a80-4428-a906-a9185ab498f3",
+          "6d0c1486-f415-47e4-896c-7d4bf84c16e1"
+        ],
+        "settings": {
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "description_style": "default",
+          "social_enable": true
+        }
+      },
+      "page-sections-template": {
+        "type": "page-sections-template",
+        "blocks": {
+          "1573593782568": {
+            "type": "image-hero",
+            "settings": {
+              "title": "Where Sustainability \nmeets Accessibility",
+              "title_size": 44,
+              "subheading": "",
+              "link": "shopify:\/\/pages\/our-culture",
+              "link_text": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "focal_point": "center center",
+              "section_height": "650px",
+              "mobile_height": "auto",
+              "parallax": true
+            }
+          },
+          "1583182425397": {
+            "type": "text-columns",
+            "settings": {
+              "title": "The Road to Accessibility",
+              "align_text": "left",
+              "enable_image_1": true,
+              "title_1": "",
+              "text_1": "<p>Let&#x27;s start from the absolute very beginning. The first shoe was invented 40,000 years ago, the very moment that defined the start of a booming industry made up of artists and engineers who have throughout the years, scaled the industry to the size it is today, so much so that we <strong>can’t bear to imagine our lives without shoes.<\/strong><\/p><p><br\/><\/p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "title_2": "",
+              "text_2": "<p>Our founder Jerry, with his extensive knowledge and experience in the footwear industry is also very<strong> passionate about the environment<\/strong> and has become increasingly aware of the climate emergency that the world is facing today, so he set out on a mission to create a new sustainable shoe that would help solve this problem.<\/p><p><br\/><\/p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "title_3": "",
+              "text_3": "<p>He noticed that companies had already started to come out with sustainable footwear solutions BUT at relatively high prices. He believes however, that <strong>everyone should have access to a sustainable shoe<\/strong> because the more sustainable options there are out there, the less unsustainable options are purchased.<\/p>",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
+          },
+          "e34094f9-97a1-4ef0-a566-bcedded83a83": {
+            "type": "fading-images",
+            "settings": {
+              "title_lines": "2",
+              "title_font": "heading",
+              "title_size": 69,
+              "title_color": "#ffffff",
+              "title_bg_color": "rgba(0,0,0,0)",
+              "text_align": "vertical-center horizontal-center",
+              "link": "shopify:\/\/pages\/our-materials",
+              "slide_speed": 3,
+              "color_overlay": "#000000",
+              "color_overlay_opacity": 0,
+              "desktop_height": "650px",
+              "mobile_height": "auto",
+              "enable_image_1": true,
+              "focal_point_1": "center center",
+              "slide_title_1a": "OUR SOLUTION",
+              "slide_title_1b": "Accessible",
+              "enable_image_2": true,
+              "focal_point_2": "center center",
+              "slide_title_2a": "OUR SOLUTION",
+              "slide_title_2b": "Sustainable",
+              "enable_image_3": true,
+              "focal_point_3": "center center",
+              "slide_title_3a": "OUR SOLUTION",
+              "slide_title_3b": "Comfortable"
+            }
+          },
+          "9ea14618-30e7-409b-bb21-0520561706d4": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "No Compromises",
+              "title": "Our Solution",
+              "text": "<p>Casual shoes that are natural and sustainable but affordable getting rid of the Green Premium once and for all. <\/p><p>Designed with maximal comfort in mind, so that you feel like you&#x27;re walking on clouds! We also focused on a simplistic design to make them the perfect everyday casual shoe. On top of that? They’ll last you a heck of a long time so no need to throw them away as quick as other shoes. When you do though, no need to worry, they take<em> <\/em><strong>X less time<\/strong><em> <\/em>than typical shoes to biodegrade. <\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "1573593348144": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "THE NAME",
+              "title": "Why \"LongRun\"?",
+              "text": "<p>The name LongRun (‘lȯŋ-rən’) epitomizes our long-term commitment to sustainability through natural, ecologically-friendly materials and environmental responsibility. The <strong>forward drive<\/strong> to embrace solutions that preserve our planet is worth pursuing with unflinching resolve. When we make the right choices, we all win in the long run.<\/p>",
+              "button_label": "The right choices...",
+              "button_link": "shopify:\/\/pages\/our-materials",
+              "layout": "right"
+            }
+          },
+          "7b275d21-d20e-439c-a1f9-58b0eddfbf5f": {
+            "type": "interactive-section",
+            "settings": {
+              "entry_list_bg": "#ffffff",
+              "entry_list_textcolor": "#000000",
+              "entry_one_show": true,
+              "entry_one_heading": "LongRun",
+              "entry_one_desc": "We are LongRun, a new Canadian shoe brand that puts the environment first.",
+              "entry_one_link": "",
+              "entry_two_show": true,
+              "entry_two_heading": "LongRun",
+              "entry_two_desc": "We are LongRun, a new Canadian shoe brand that puts the environment first.",
+              "entry_two_link": "",
+              "entry_three_show": true,
+              "entry_three_heading": "LongRun",
+              "entry_three_desc": "We are LongRun, a new Canadian shoe brand that puts the environment first.",
+              "entry_three_link": "",
+              "entry_four_show": true,
+              "entry_four_heading": "LongRun",
+              "entry_four_desc": "We are LongRun, a new Canadian shoe brand that puts the environment first.",
+              "entry_four_link": ""
+            }
+          },
+          "5d48b354-7c31-49a6-9fd7-f8ea2611f250": {
+            "type": "custom-block-materials",
+            "settings": {
+              "material_one_show": true,
+              "material_one": "Material One",
+              "material_one_desc": "We set out on a mission to find the best materials for your feet and the planet. That means natural plant-based materials that grow and renew quickly, that grow without chemicals or irrigation and are made into fabrics and materials in an eco friendly way.",
+              "material_two_show": true,
+              "material_two": "Material Two",
+              "material_two_desc": "We set out on a mission to find the best materials for your feet and the planet. That means natural plant-based materials that grow and renew quickly, that grow without chemicals or irrigation and are made into fabrics and materials in an eco friendly way.",
+              "material_three_show": true,
+              "material_three": "Material Three",
+              "material_three_desc": "We set out on a mission to find the best materials for your feet and the planet. That means natural plant-based materials that grow and renew quickly, that grow without chemicals or irrigation and are made into fabrics and materials in an eco friendly way.",
+              "material_four_show": true,
+              "material_four": "Material Four",
+              "material_four_desc": "We set out on a mission to find the best materials for your feet and the planet. That means natural plant-based materials that grow and renew quickly, that grow without chemicals or irrigation and are made into fabrics and materials in an eco friendly way.",
+              "material_five_show": true,
+              "material_five": "Material Five",
+              "material_five_desc": "We set out on a mission to find the best materials for your feet and the planet. That means natural plant-based materials that grow and renew quickly, that grow without chemicals or irrigation and are made into fabrics and materials in an eco friendly way.",
+              "material_six_show": true,
+              "material_six": "Material Six",
+              "material_six_desc": "We set out on a mission to find the best materials for your feet and the planet. That means natural plant-based materials that grow and renew quickly, that grow without chemicals or irrigation and are made into fabrics and materials in an eco friendly way.",
+              "material_seven_show": true,
+              "material_seven": "Material Seven",
+              "material_seven_desc": "We set out on a mission to find the best materials for your feet and the planet. That means natural plant-based materials that grow and renew quickly, that grow without chemicals or irrigation and are made into fabrics and materials in an eco friendly way."
+            }
+          },
+          "c9262866-b159-4694-ac11-c721a18110e9": {
+            "type": "custom-block-buttons",
+            "settings": {
+              "btn_block_btn1_show": true,
+              "button_one_text": "Button Text",
+              "button_one_url": "",
+              "btn_one_nw": true,
+              "btn_block_btn2_show": true,
+              "button_two_text": "Button Text",
+              "button_two_url": "",
+              "btn_two_nw": false,
+              "btn_block_btn3_show": true,
+              "button_three_text": "Button Text",
+              "button_three_url": "",
+              "btn_three_nw": false
+            }
+          }
+        },
+        "block_order": [
+          "1573593782568",
+          "1583182425397",
+          "e34094f9-97a1-4ef0-a566-bcedded83a83",
+          "9ea14618-30e7-409b-bb21-0520561706d4",
+          "1573593348144",
+          "7b275d21-d20e-439c-a1f9-58b0eddfbf5f",
+          "5d48b354-7c31-49a6-9fd7-f8ea2611f250",
+          "c9262866-b159-4694-ac11-c721a18110e9"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "newsletter-popup": {
+        "type": "newsletter-popup",
+        "settings": {
+          "mode": "disabled",
+          "popup_seconds": 60,
+          "popup_days": 14,
+          "popup_title": "Sign up and save",
+          "popup_text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers. Include an image for extra impact.<\/p>",
+          "close_text": "No thanks",
+          "enable_newsletter": true,
+          "button_label": "Learn More First",
+          "button_link": "shopify:\/\/pages\/our-story",
+          "enable_button": false
+        }
+      },
+      "1573585408021": {
+        "type": "text-and-image",
+        "settings": {
+          "image_width": 500,
+          "subtitle": "LongRun",
+          "title": "Who Are We?",
+          "text": "<p>Hi! We&#x27;re glad you found us. We are<strong> LongRun<\/strong>, a new Canadian shoe brand that puts the environment first. Our shoes are comfortable, simple and durable. Our shoes are accessible. Our shoes are taking their first steps into a world of sustainability without any compromises. <\/p>",
+          "button_label": "Get to know us better!",
+          "button_link": "shopify:\/\/pages\/our-story",
+          "layout": "left",
+          "divider": false
+        }
+      },
+      "1573586159562": {
+        "type": "testimonials",
+        "disabled": true,
+        "blocks": {
+          "1573586159562-0": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "1573586159562-1": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "1573586159562-2": {
+            "type": "testimonial",
+            "settings": {
+              "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "1573586159562-0",
+          "1573586159562-1",
+          "1573586159562-2"
+        ],
+        "settings": {
+          "title": "What people are saying",
+          "align_text": "left",
+          "round_images": true,
+          "divider": true
+        }
+      },
+      "1573586435958": {
+        "type": "featured-content",
+        "settings": {
+          "title": "Any Questions?",
+          "text": "<p>We&#x27;re here to help! Just click below for assistance. <\/p><p><a href=\"\/pages\/get-the-facts\" title=\"Get the Facts!\"><strong>FAQ<\/strong><\/a><\/p>",
+          "align_text": "center",
+          "narrow_column": true,
+          "enlarge_text": true,
+          "divider": true
+        }
+      },
+      "password-header": {
+        "type": "password-header",
+        "settings": {
+          "logo": "",
+          "desktop_logo_height": 100,
+          "mobile_logo_height": 60
+        }
+      },
+      "password-content": {
+        "type": "password-content",
+        "settings": {
+          "title": "Opening Soon",
+          "newsletter_enable": true,
+          "newsletter_heading": "<p>Get notified when we launch<\/p>",
+          "newsletter_placeholder": "Email address",
+          "newsletter_button_text": "Submit",
+          "show_share_buttons": true,
+          "show_image": false,
+          "image": ""
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "page-contact-template-0": {
+            "type": "contact-form",
+            "settings": {
+              "title": "",
+              "show_phone": false,
+              "narrow_column": true
+            }
+          }
+        },
+        "block_order": [
+          "page-contact-template-0"
+        ],
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": false
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Shipping policy",
+              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>",
+              "align_text": "left"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "Where do you ship to?",
+              "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "How long will my order take?",
+              "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Returns and exchanges",
+              "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>",
+              "align_text": "left"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "question",
+            "settings": {
+              "title": "How do I ship my order back to you?",
+              "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "page-faq-template-4"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-our-culture-template": {
+        "type": "page-sections-our-culture-template",
+        "blocks": {
+          "1574793404463": {
+            "type": "image-hero",
+            "settings": {
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link": "shopify:\/\/pages\/our-materials",
+              "link_text": "Chapter 3: Our Materials",
+              "text_align": "vertical-bottom horizontal-left",
+              "image": "shopify:\/\/shop_images\/book-lit-up-with-reading.jpg",
+              "focal_point": "center center",
+              "section_height": "650px",
+              "mobile_height": "auto",
+              "parallax": false
+            }
+          },
+          "1573594998274": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/woman-looks-to-distance.jpg",
+              "image_width": 500,
+              "subtitle": "",
+              "title": "Our Vision 👁",
+              "text": "<p>In the grand scheme of things, we want everyone in the world to own a pair of sustainable shoes and we want to be the company that makes that happen.&nbsp;<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "1573595003959": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rocket.jpg",
+              "image_width": 500,
+              "subtitle": "",
+              "title": "Our Mission 📢",
+              "text": "<p>We want to develop and offer you a sustainable shoe that is affordable and accessible without compromising on comfort, style and durability.&nbsp;&nbsp;<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "right"
+            }
+          },
+          "1573595015640": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dartboard-on-door.jpg",
+              "image_width": 500,
+              "subtitle": "",
+              "title": "Our Purpose 💡",
+              "text": "<p>In the end, what we want is to make the world a more eco-friendly place, one pair of shoes at a time.&nbsp;<\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "1573595059553": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Our Commitments 🔓",
+              "text": "<p><strong>We are committed to...<\/strong><\/p>\n<p>⚪ Being the most affordable and accessible eco-friendly shoe on the market.<\/p>\n<p>⚪ Making sure that we do not compromise on comfort, style and durability in the creation of an eco-friendly and affordable shoe.<\/p>\n<p>⚪ Working towards an 100% eco-friendly and biodegradable shoe that will close the loop on waste.<\/p>\n<p>⚪ Continuously improving our supply chain logistics to become fully eco-friendly starting from the source all the way to the disposal.<\/p>\n<p>⚪ Continuously finding new ways to reduce the environmental footprint of our shoes, whether it be finding new raw materials to use or by offsetting our carbon footprint to become carbon neutral and possibly carbon negative (climate positive) in the future.<\/p>\n<p>⚪ Always being real and transparent about our every step in our process.<\/p>",
+              "align_text": "left",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          },
+          "1573595068089": {
+            "type": "text-columns",
+            "settings": {
+              "title": "Our Values 💗",
+              "align_text": "left",
+              "enable_image_1": true,
+              "image_1": "",
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "image_2": "",
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "image_3": "",
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
+          },
+          "1573595080154": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "left",
+              "enable_image_1": true,
+              "image_1": "",
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "image_2": "",
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "image_3": "",
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
+          },
+          "1573652385167": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Keep Reading...",
+              "text": "<p><a href=\"\/pages\/our-materials\" title=\"Our Materials\">Find out more about our Materials&nbsp;<\/a><\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          }
+        },
+        "block_order": [
+          "1574793404463",
+          "1573594998274",
+          "1573595003959",
+          "1573595015640",
+          "1573595059553",
+          "1573595068089",
+          "1573595080154",
+          "1573652385167"
+        ],
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-our-impact-template": {
+        "type": "page-sections-our-impact-template",
+        "blocks": {
+          "1574794392576": {
+            "type": "image-hero",
+            "settings": {
+              "title": "Making our Mark",
+              "title_size": 53,
+              "subheading": "",
+              "link": "shopify:\/\/pages\/supply-chain",
+              "link_text": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "focal_point": "center center",
+              "section_height": "650px",
+              "mobile_height": "auto",
+              "parallax": false
+            }
+          },
+          "1587570301097": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p>Sustainability is at the forefront of everything that we do here at LongRun. Whether it be through our natural and recycled materials, eco-friendly supply chain, the highest ethical standards and certifications or our corporate culture and practices, we make sure that everything we do positively benefits our planet and our people. <\/p>",
+              "align_text": "center",
+              "narrow_column": false,
+              "enlarge_text": true
+            }
+          },
+          "1573654375413": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "PENDING",
+              "title": "B Corporation",
+              "text": "<p>We are a certified Pending B-Corporation! This is a program put in place for conscious brands that haven’t been in operation for 1 year yet but are measuring and managing their social and environmental performance. By becoming a Pending B-Corporation, we have committed to meet the highest standards of verified social and environmental performance, public transparency, and legal accountability to balance profit and purpose. <\/p><p><br\/><\/p>",
+              "button_label": "Find out More",
+              "button_link": "https:\/\/bcorporation.net\/certification\/pending-b-corps",
+              "layout": "left"
+            }
+          },
+          "1573656976986": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "GOALS",
+              "title": "Towards B Corporation",
+              "text": "<p>In order to make sure we become an official B-Corporation, we have set goals based on the B-Impact Assessment and the SDGs and are working hard towards the achievement of these goals. As of now, we are on track to become an official B-Corporation in 2022. <\/p>",
+              "button_label": "Get the Details",
+              "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0271\/4045\/6534\/files\/LONGRUN_PRODUCT_CARBON_FOOTPRINT_METHODOLOGY.pdf?v=1587655253",
+              "layout": "right"
+            }
+          },
+          "1573657070488": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p><a href=\"\/collections\/all\" title=\"All Products\"><strong>SHOP NOW<\/strong><\/a><\/p><p><a href=\"\/pages\/our-story\" title=\"Our Story\"><strong>Let&#x27;s Talk LongRun    <\/strong><\/a><strong>                  <\/strong><a href=\"\/pages\/our-materials\" title=\"Our Materials\"><strong>Let&#x27;s Talk Materials<\/strong><\/a><\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          },
+          "9389dcc9-e601-410f-9ad2-efd8eeb75cb3": {
+            "type": "interactive-section",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "1574794392576",
+          "1587570301097",
+          "1573654375413",
+          "1573656976986",
+          "1573657070488",
+          "9389dcc9-e601-410f-9ad2-efd8eeb75cb3"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-our-materials-template": {
+        "type": "page-sections-our-materials-template",
+        "blocks": {
+          "4261a79c-6066-431e-816c-c81ffd4110b9": {
+            "type": "image-hero",
+            "settings": {
+              "title": "Better for your feet\nBetter for the planet",
+              "title_size": 40,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "focal_point": "center center",
+              "section_height": "650px",
+              "mobile_height": "auto",
+              "parallax": true
+            }
+          },
+          "1587565409996": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Materials that are better for your feet and for the planet.",
+              "text": "<p>We set out on a mission to find the best materials for your feet and the planet. That means natural plant-based materials that grow and renew quickly, that grow without chemicals or irrigation and are made into fabrics and materials in an eco friendly way. For smaller components, we made sure to use recycled materials. We also made sure that these materials benefit your feet by offering undeniable comfort, breathability and a light as a feather feel among many other features. <\/p>",
+              "align_text": "center",
+              "narrow_column": false,
+              "enlarge_text": true
+            }
+          },
+          "1587565926395": {
+            "type": "image-row",
+            "settings": {
+              "image_1_link": "",
+              "image_2_link": "",
+              "image_3_link": "",
+              "image_4_link": "",
+              "enable_gutter": false,
+              "enable_zoom": false
+            }
+          },
+          "1587567867509": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p><strong>Bamboo          Sugarcane        Castor Bean Oil        Laces      Natural Rubber<\/strong><\/p>",
+              "align_text": "left",
+              "narrow_column": false,
+              "enlarge_text": true
+            }
+          },
+          "1587568670172": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "Bamboo",
+              "title": "For the Planet",
+              "text": "<p>Bamboo is one of the fastest growing plants on the planet, requiring just four years to reach maturity. Bamboo represents a revolutionary alternative to traditional wood. It grows 3 feet per day, exhibits extraordinary strength and resilience and requires little or no maintenance. Most importantly, it doesn’t need to be cut down when harvested so it can keep doing its thing and absorb toxic greenhouse gases and release oxygen into the air, 35% more than most trees to be exact. <\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "95ea4a94-649a-4b8b-98b4-db5f74eca8ca": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "BAMBOO",
+              "title": "MEET BAMBOOCEL™",
+              "text": "<p>Meet Bamboocel™, a revolutionary new fabric that combines the sustainability of Bamboo with a completely benign manufacturing process, Lyocell. Bamboocel (bamboo + Lyocell) is a completely renewable bio-material made using the pulp of Bamboo which is blended with an organic solvent to create a cellulose fibre. This is then spun into yarn and woven into our proprietary fabric. This is an entirely closed-loop process because the water and solvent waste are constantly reused making this fabric the perfect combination of sustainable material and manufacturing<strong>. <\/strong><\/p>",
+              "button_label": "Optional button",
+              "button_link": "",
+              "layout": "right"
+            }
+          },
+          "7b2aa42c-f405-4103-8d8e-73b64e15e408": {
+            "type": "image-hero",
+            "settings": {
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "text_align": "vertical-center horizontal-center",
+              "focal_point": "top center",
+              "section_height": "natural",
+              "mobile_height": "auto",
+              "parallax": false
+            }
+          },
+          "1587569514736": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0271\/4045\/6534\/files\/bamboo_facts.pdf?v=1587654061\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0271\/4045\/6534\/files\/bamboo_facts.pdf?v=1587654061\"><strong>Give me the Details!<\/strong><\/a><\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          },
+          "1576614730920": {
+            "type": "text-columns",
+            "settings": {
+              "title": "We didn't stop there...",
+              "align_text": "center",
+              "enable_image_1": true,
+              "title_1": "Extras",
+              "text_1": "<p>We wanted to make sure that the environmental footprint of our shoe was as small as possible so we also use a strobble board made from recycled plastic bottles, our eyelets are stitched to avoid extra plastic use, and all of our dyes, paints and glues are plant based or water based.  <\/p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "title_2": "Packaging",
+              "text_2": "<p>Our shoe box, including the sleeve and insert, is made from 100% recycled and recyclable post-consumer cardboard that is FSC certified. The ink we use is plant based made from soy and our tape is brown reinforced water-activated tape which removes the need for chemical glue. <\/p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": false,
+              "title_3": "",
+              "text_3": "",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
+          },
+          "1587569802499": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p><strong> <\/strong><a href=\"\/pages\/our-impact\" title=\"Our Impact\"><strong>   Let&#x27;s Talk Sustainability    <\/strong><\/a><strong>      <\/strong><a href=\"\/pages\/our-impact\" title=\"Our Impact\"><strong> <\/strong><\/a><a href=\"\/pages\/our-story\" title=\"Our Story\"><strong>Let&#x27;s talk LongRun <\/strong><\/a><\/p>",
+              "align_text": "left",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          },
+          "01e6aaa5-c0b1-48d3-9cf8-6866d1d5b7d1": {
+            "type": "interactive-section",
+            "settings": {
+              "entry_list_bg": "#4a7d71",
+              "entry_list_textcolor": "#ffffff",
+              "entry_one_show": true,
+              "entry_one_heading": "LongRun 1",
+              "entry_one_desc": "We are LongRun, a new Canadian shoe brand that puts the environment first.",
+              "entry_one_link": "",
+              "entry_two_show": true,
+              "entry_two_heading": "LongRun 2",
+              "entry_two_desc": "We are LongRun, a new Canadian shoe brand that puts the environment first.",
+              "entry_two_link": "",
+              "entry_three_show": true,
+              "entry_three_heading": "LongRun 3",
+              "entry_three_desc": "We are LongRun, a new Canadian shoe brand that puts the environment first.",
+              "entry_three_link": "",
+              "entry_four_show": true,
+              "entry_four_heading": "LongRun 4",
+              "entry_four_desc": "We are LongRun, a new Canadian shoe brand that puts the environment first.",
+              "entry_four_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "4261a79c-6066-431e-816c-c81ffd4110b9",
+          "1587565409996",
+          "1587565926395",
+          "1587567867509",
+          "1587568670172",
+          "95ea4a94-649a-4b8b-98b4-db5f74eca8ca",
+          "7b2aa42c-f405-4103-8d8e-73b64e15e408",
+          "1587569514736",
+          "1576614730920",
+          "1587569802499",
+          "01e6aaa5-c0b1-48d3-9cf8-6866d1d5b7d1"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-press-template": {
+        "type": "page-sections-press-template",
+        "blocks": {
+          "d380ce6b-01a7-488f-83a7-c4e76982b239": {
+            "type": "image-hero",
+            "settings": {
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link_text": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "image": "shopify:\/\/shop_images\/Web_content_-_rectangle_4.png",
+              "focal_point": "center center",
+              "section_height": "650px",
+              "mobile_height": "auto",
+              "parallax": false
+            }
+          },
+          "a6b0dfce-a5a4-40c3-992e-5d39396beb0c": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p><strong>Access our Press Kit here<\/strong><\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          },
+          "1573657171739": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 270,
+              "subtitle": "",
+              "title": "Name",
+              "text": "<p><strong>&quot;                &quot;<\/strong><\/p>",
+              "button_label": "View Article",
+              "layout": "left"
+            }
+          },
+          "1573657224171": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 270,
+              "subtitle": "",
+              "title": "Name",
+              "text": "<p><strong>&quot;              &quot;<\/strong><\/p>",
+              "button_label": "View Article",
+              "layout": "left"
+            }
+          },
+          "1573657273857": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 270,
+              "subtitle": "",
+              "title": "Name",
+              "text": "<p><strong>&quot;               &quot;<\/strong><\/p>",
+              "button_label": "View Article",
+              "layout": "left"
+            }
+          }
+        },
+        "block_order": [
+          "d380ce6b-01a7-488f-83a7-c4e76982b239",
+          "a6b0dfce-a5a4-40c3-992e-5d39396beb0c",
+          "1573657171739",
+          "1573657224171",
+          "1573657273857"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-testimonials-template": {
+        "type": "page-sections-testimonials-template",
+        "blocks": {
+          "c2114b7b-5ce0-4bda-b852-2f38c2c567bb": {
+            "type": "image-hero",
+            "settings": {
+              "title": "",
+              "title_size": 80,
+              "subheading": "",
+              "link_text": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "image": "shopify:\/\/shop_images\/12.png",
+              "focal_point": "top center",
+              "section_height": "650px",
+              "mobile_height": "auto",
+              "parallax": false
+            }
+          },
+          "b53ad920-6daf-45f0-a26a-5679533c3c0a": {
+            "type": "contact-form",
+            "settings": {
+              "title": "Tell us about your experience!",
+              "show_phone": false,
+              "narrow_column": true
+            }
+          },
+          "1573657682297": {
+            "type": "rich-text",
+            "settings": {
+              "title": "Follow Us!",
+              "text": "<p>Follow us to see what everyone is saying and to keep up to date on our newest initiatives, product releases etc.<\/p><p>@longrunshoes<\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          },
+          "1573657579323": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "Follwers",
+              "title": "Name",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "button_label": "@ecofriend123",
+              "button_link": "https:\/\/www.instagram.com\/ecofriend123\/",
+              "layout": "left"
+            }
+          },
+          "1573657664178": {
+            "type": "text-and-image",
+            "settings": {
+              "image_width": 500,
+              "subtitle": "Follwers",
+              "title": "Name",
+              "text": "<p>Pair large text with an image to tell a story, explain a detail about your product, or describe a new promotion.<\/p>",
+              "button_label": "@",
+              "layout": "left"
+            }
+          }
+        },
+        "block_order": [
+          "c2114b7b-5ce0-4bda-b852-2f38c2c567bb",
+          "b53ad920-6daf-45f0-a26a-5679533c3c0a",
+          "1573657682297",
+          "1573657579323",
+          "1573657664178"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-our-partners-template": {
+        "type": "page-sections-our-partners-template",
+        "blocks": {
+          "1574794810478": {
+            "type": "image-hero",
+            "settings": {
+              "title": "Our Partners",
+              "title_size": 62,
+              "subheading": "",
+              "link_text": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "image": "shopify:\/\/shop_images\/team-hands-in.jpg",
+              "focal_point": "center center",
+              "section_height": "650px",
+              "mobile_height": "auto",
+              "parallax": false
+            }
+          },
+          "1574794861928": {
+            "type": "contact-form",
+            "settings": {
+              "title": "Want to join us?   Let us know!",
+              "show_phone": false,
+              "narrow_column": true
+            }
+          },
+          "1573657883285": {
+            "type": "text-columns",
+            "settings": {
+              "title": "Our Ambassadors",
+              "align_text": "left",
+              "enable_image_1": true,
+              "title_1": "Name",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_1": "",
+              "enable_image_2": true,
+              "title_2": "Name",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "enable_image_3": true,
+              "title_3": "Name",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": ""
+            }
+          },
+          "1573658457818": {
+            "type": "text-columns",
+            "settings": {
+              "title": "Our Affiliates",
+              "align_text": "left",
+              "enable_image_1": true,
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_1": "",
+              "enable_image_2": true,
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "enable_image_3": true,
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": ""
+            }
+          },
+          "1573658478999": {
+            "type": "text-columns",
+            "settings": {
+              "title": "Our Communities",
+              "align_text": "left",
+              "enable_image_1": true,
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_1": "",
+              "enable_image_2": true,
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "enable_image_3": true,
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": ""
+            }
+          }
+        },
+        "block_order": [
+          "1574794810478",
+          "1574794861928",
+          "1573657883285",
+          "1573658457818",
+          "1573658478999"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-supply-chain-template": {
+        "type": "page-sections-supply-chain-template",
+        "blocks": {
+          "1574794496372": {
+            "type": "image-hero",
+            "settings": {
+              "title": "Sustainability \nNever Stops",
+              "title_size": 56,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "image": "shopify:\/\/shop_images\/industrial-nature.jpg",
+              "focal_point": "center center",
+              "section_height": "650px",
+              "mobile_height": "auto",
+              "parallax": false
+            }
+          },
+          "1587575226218": {
+            "type": "text-columns",
+            "settings": {
+              "title": "Meet Our Suppliers",
+              "align_text": "center",
+              "enable_image_1": true,
+              "image_1": "shopify:\/\/shop_images\/construction-worker-safety-gear.jpg",
+              "title_1": "Supplier name",
+              "text_1": "<p>About Supplier<\/p>",
+              "button_label_1": "",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "image_2": "shopify:\/\/shop_images\/large-group-standing-in-office.jpg",
+              "title_2": "Supplier Name",
+              "text_2": "<p>About supplier<\/p>",
+              "button_label_2": "",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "image_3": "shopify:\/\/shop_images\/five-construction-workers-on-break.jpg",
+              "title_3": "Supplier Name",
+              "text_3": "<p>About supplier<\/p>",
+              "button_label_3": "",
+              "button_link_3": ""
+            }
+          },
+          "1587575606407": {
+            "type": "rich-text",
+            "settings": {
+              "title": "",
+              "text": "<p><strong>Click here for more details<\/strong><\/p>\n<p><strong>Click here to see our Supplier Code of Conduct<\/strong><\/p>",
+              "align_text": "center",
+              "narrow_column": true,
+              "enlarge_text": true
+            }
+          }
+        },
+        "block_order": [
+          "1574794496372",
+          "1587575226218",
+          "1587575606407"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-how-to-help-template": {
+        "type": "page-sections-how-to-help-template",
+        "blocks": {
+          "1574794930157": {
+            "type": "image-hero",
+            "settings": {
+              "title": "How can you help?",
+              "title_size": 59,
+              "subheading": "",
+              "link": "",
+              "link_text": "",
+              "text_align": "vertical-bottom horizontal-left",
+              "focal_point": "center center",
+              "section_height": "650px",
+              "mobile_height": "auto",
+              "parallax": false
+            }
+          },
+          "1587576246034": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "center",
+              "enable_image_1": true,
+              "title_1": "Donations",
+              "text_1": "<p>A simple way to help protect the planet is by donating to certified environmental charities. Here is our favourite.<\/p>",
+              "button_label_1": "How?",
+              "button_link_1": "",
+              "enable_image_2": true,
+              "title_2": "Plant a tree",
+              "text_2": "<p>A great initiative to take part in to offset your own carbon footprint is to plant a tree. Each tree planted offsets x amount of carbon. <\/p>",
+              "button_label_2": "How?",
+              "button_link_2": "",
+              "enable_image_3": true,
+              "title_3": "Zero waste week",
+              "text_3": "<p>This one is a bit more of a challenge but we think you can do it! Try to go zero waste for 1 whole week and don’t forget to record your journey and tag us @longrunshoes and use the hashtag #longrungoeszero<\/p>",
+              "button_label_3": "How?",
+              "button_link_3": ""
+            }
+          },
+          "31ce7709-5a6f-418d-8925-6cb544d59f41": {
+            "type": "custom-block-bg-ov-img",
+            "settings": {
+              "subtitle": "Impressive",
+              "title": "Large image with text box",
+              "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "image": "shopify:\/\/shop_images\/bread-2920173_1920.jpg",
+              "alignment": "center",
+              "overlay": "#ffffff",
+              "title_color": "#4a7d71",
+              "subtext_color": "#000000",
+              "height": 450,
+              "parallax": false
+            }
+          }
+        },
+        "block_order": [
+          "1574794930157",
+          "1587576246034",
+          "31ce7709-5a6f-418d-8925-6cb544d59f41"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-our-commitments-template": {
+        "type": "page-sections-our-commitments-template",
+        "blocks": {
+          "1583338863922": {
+            "type": "rich-text",
+            "settings": {
+              "title": "We are commited to...",
+              "text": "<p>🔓 Being the most affordable and accessible eco-friendly shoe on the market.<\/p>\n<p>🔓 Making sure that we do not compromise on comfort, style and durability in the creation of an eco-friendly and affordable shoe.<\/p>\n<p>🔓 Working towards an 100% eco-friendly and biodegradable shoe that will close the loop on waste.<\/p>\n<p>🔓 Continuously improving our supply chain logistics to become fully eco-friendly starting from the source all the way to the disposal.<\/p>\n<p>🔓 Continuously finding new ways to reduce the environmental footprint of our shoes, whether it be finding new raw materials to use or by offsetting our carbon footprint to become carbon neutral and possibly carbon negative (climate positive) in the future.<\/p>\n<p>🔓 Always being real and transparent about our every step in our process.<\/p>\n<p><\/p>\n<p><\/p>",
+              "align_text": "left",
+              "narrow_column": true,
+              "enlarge_text": false
+            }
+          }
+        },
+        "block_order": [
+          "1583338863922"
+        ],
+        "settings": {
+          "page_title_enable": false,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-our-values-template": {
+        "type": "page-sections-our-values-template",
+        "blocks": {
+          "1583339004882": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "left",
+              "enable_image_1": true,
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_1": "",
+              "enable_image_2": true,
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "enable_image_3": true,
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": ""
+            }
+          },
+          "1583339014306": {
+            "type": "text-columns",
+            "settings": {
+              "title": "",
+              "align_text": "left",
+              "enable_image_1": true,
+              "title_1": "Example title",
+              "text_1": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_1": "",
+              "enable_image_2": true,
+              "title_2": "Example title",
+              "text_2": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_2": "",
+              "enable_image_3": true,
+              "title_3": "Example title",
+              "text_3": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+              "button_label_3": ""
+            }
+          }
+        },
+        "block_order": [
+          "1583339004882",
+          "1583339014306"
+        ],
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": false
+        }
+      },
+      "page-sections-our-mission-template": {
+        "type": "page-sections-our-mission-template",
+        "blocks": {
+          "1583338336594": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/rocket.jpg",
+              "image_width": 500,
+              "subtitle": "",
+              "title": "Our Mission  📢",
+              "text": "<p>Develop and offer a sustainable shoe at an affordable price so that everyone can do their part to make the world a better place while not having to break the bank to do so.&nbsp;<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "right"
+            }
+          },
+          "1583338343273": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/woman-looks-to-distance.jpg",
+              "image_width": 500,
+              "subtitle": "",
+              "title": "Our Vision 👁",
+              "text": "<p>In the grand scheme of things, we want everyone in the world to own a pair of sustainable shoes and we want to be the company that makes that happen.&nbsp;&nbsp;<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "left"
+            }
+          },
+          "1583338350257": {
+            "type": "text-and-image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/dartboard-on-door.jpg",
+              "image_width": 500,
+              "subtitle": "",
+              "title": "Our Purpose 💡",
+              "text": "<p>In the end, what we want is to make the world a more Eco-friendly place, one pair of shoes at a time.&nbsp;&nbsp;<\/p>",
+              "button_label": "",
+              "button_link": "",
+              "layout": "right"
+            }
+          }
+        },
+        "block_order": [
+          "1583338336594",
+          "1583338343273",
+          "1583338350257"
+        ],
+        "settings": {
+          "page_title_enable": true,
+          "page_content_enable": false
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "7b7581d8-a71d-41bf-9c50-507ab015d7c9": {
+            "type": "collection",
+            "settings": {
+              "collection": "frontpage"
+            }
+          }
+        },
+        "block_order": [
+          "7b7581d8-a71d-41bf-9c50-507ab015d7c9"
+        ],
+        "settings": {
+          "title_enable": true,
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": "3"
+        }
+      },
+      "1583342601453": {
+        "type": "contact-form",
+        "disabled": true,
+        "settings": {
+          "title": "Contact us",
+          "show_phone": false,
+          "narrow_column": true
+        }
+      },
+      "1587560083255": {
+        "type": "hero-video",
+        "settings": {
+          "title": "More Comfort, Less Footprint.",
+          "title_size": 46,
+          "subheading": "",
+          "link_text": "Shop",
+          "link": "shopify:\/\/collections\/all",
+          "text_align": "vertical-center horizontal-center",
+          "video_url": "https:\/\/www.youtube.com\/watch?v=VJeD1_JF2WI",
+          "section_height": "100vh",
+          "mobile_height": "auto"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "product_recommendations_heading": "You may also like",
+          "related_count": 5
+        }
+      },
+      "product-collection-links": {
+        "type": "product-collection-links",
+        "settings": {
+          "collection_links_enable": false
+        }
+      },
+      "1608056604d44059fe": {
+        "type": "background-image-text",
+        "settings": {
+          "subtitle": "OUR MATERIALS",
+          "title": "The perfect balance",
+          "text": "<p>We take pride in knowing that our shoes are made out of the best sustainable materials for your feet and for the planet. <\/p>",
+          "button_label": "Tell me more!",
+          "button_link": "shopify:\/\/pages\/our-materials",
+          "focal_point": "80% 50%",
+          "color_border": "#f4f4f4",
+          "layout": "left",
+          "height": 650,
+          "parallax": false
+        }
+      },
+      "1608060393e8b140ac": {
+        "type": "background-image-text",
+        "settings": {
+          "subtitle": "our impact",
+          "title": "Sustainability",
+          "text": "<p>Our shoes don&#x27;t just sit on your feet and look pretty. Every pair has a positive impact on the environment and the world. <\/p>",
+          "button_label": "But how?",
+          "button_link": "shopify:\/\/pages\/our-impact",
+          "focal_point": "20% 50%",
+          "color_border": "#f4f4f4",
+          "layout": "left",
+          "height": 650,
+          "parallax": false
+        }
+      },
+      "16080612326d1dfd99": {
+        "type": "newsletter",
+        "settings": {
+          "title": "Join us on our journey",
+          "text": "<p>Sign up for exclusive sneak peaks, first dibs on new launches and to stay updated on everything LongRun. <\/p>",
+          "color_background": "#faf8ec",
+          "color_text": "#1c1d1d"
+        }
+      },
+      "16166809609e12c78b": {
+        "type": "maestrooo-instagram",
+        "settings": {
+          "title": "Shop our Feed",
+          "subheading": "<p>#forthelongrun<\/p>",
+          "button_text": "Check it out!",
+          "button_link": "",
+          "layout": "grid",
+          "image_size": "large",
+          "full_width": false,
+          "add_spacing": true,
+          "rows_count": 1,
+          "show_author": false,
+          "show_caption": true,
+          "show_date": true,
+          "click_action": "open_instagram",
+          "heading_color": "#4a7d71",
+          "subheading_color": "#000000",
+          "button_background": "#000000",
+          "button_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_text_color": "#ffffff",
+          "overlay_opacity": 65
+        }
+      },
+      "post-rec-sections": {
+        "type": "post-rec-sections",
+        "settings": {
+          "image_size": "medium",
+          "thumbnail_position": "beside",
+          "thumbnail_arrows": false,
+          "description_style": "default",
+          "social_enable": true
+        }
+      }
+    },
+    "content_for_index": [
+      "1587560083255",
+      "1573585408021",
+      "1608056604d44059fe",
+      "1499790731541",
+      "1608060393e8b140ac",
+      "1573586159562",
+      "1573586435958",
+      "1583342601453",
+      "16080612326d1dfd99",
+      "16166809609e12c78b"
+    ]
+  },
+  "presets": {
+    "Classic": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_borders": "#e8e8e1",
+      "color_button": "#111111",
+      "color_button_text": "#fff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_footer": "#111111",
+      "color_footer_text": "#fff",
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 62,
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_small_image_bg": "#fff",
+      "color_large_image_bg": "#111111",
+      "type_header_spacing": "0",
+      "type_header_font_family": "itc_avant_garde_gothic_n7",
+      "type_header_base_size": 35,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "4px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "default_currency": "USD",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_sale_tag": "#990000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "header_search_enable": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {}
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "product-sections-template": {
+          "type": "product-sections-template",
+          "blocks": {
+            "product-image-row": {
+              "type": "image-row",
+              "settings": {}
+            },
+            "product-text-and-image": {
+              "type": "text-and-image",
+              "settings": {}
+            },
+            "product-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "product-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "product-hero-video": {
+              "type": "hero-video",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "product-image-row",
+            "product-text-and-image",
+            "product-background-image-text",
+            "product-text-columns",
+            "product-hero-video"
+          ],
+          "settings": {}
+        },
+        "page-sections-template": {
+          "type": "page-sections-template",
+          "blocks": {
+            "page-fading-images": {
+              "type": "fading-images",
+              "settings": {}
+            },
+            "page-rich-text": {
+              "type": "rich-text",
+              "settings": {
+                "title": "",
+                "enlarge_text": true
+              }
+            },
+            "page-text-columns": {
+              "type": "text-columns",
+              "settings": {}
+            },
+            "page-background-image-text": {
+              "type": "background-image-text",
+              "settings": {
+                "layout": "right"
+              }
+            },
+            "page-featured-collection": {
+              "type": "featured-collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "page-fading-images",
+            "page-rich-text",
+            "page-text-columns",
+            "page-background-image-text",
+            "page-featured-collection"
+          ],
+          "settings": {}
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    },
+    "Elegant": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_borders": "#e8e8e1",
+      "color_button": "#353956",
+      "color_button_text": "#fff",
+      "color_header": "#ffffff",
+      "color_header_text": "#040404",
+      "color_footer": "#17172c",
+      "color_footer_text": "#fff",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#17172c",
+      "color_drawer_border": "#e8e8e1",
+      "color_drawer_button": "#353956",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#17172c",
+      "color_image_2": "#17172c",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#17172c",
+      "color_image_1_opacity": 32,
+      "color_small_image_bg": "#f4f4f4",
+      "color_large_image_bg": "#17172c",
+      "type_header_spacing": "0",
+      "type_header_font_family": "bauer_bodoni_n7",
+      "type_header_base_size": 42,
+      "type_header_line_height": 1.3,
+      "type_base_font_family": "futura_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 17,
+      "type_base_line_height": 1.6,
+      "icon_weight": "3px",
+      "icon_linecaps": "miter",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slow-fade",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "zoom-fade",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "default_currency": "USD",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_sale_tag": "#990000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": true,
+            "sticky_collection": false,
+            "header_search_enable": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {}
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    },
+    "Minimal": {
+      "color_body_bg": "#ffffff",
+      "color_body_text": "#000000",
+      "color_borders": "#f0f1f3",
+      "color_button": "#111111",
+      "color_button_text": "#fff",
+      "color_header": "#fff",
+      "color_header_text": "#000",
+      "color_footer": "#f0f1f3",
+      "color_footer_text": "#2c2c2c",
+      "color_drawer_background": "#ffffff",
+      "color_drawer_text": "#000000",
+      "color_drawer_border": "#f0f1f3",
+      "color_drawer_button": "#111111",
+      "color_drawer_button_text": "#ffffff",
+      "color_modal_overlays": "#aeb1b8",
+      "color_image_2": "#000000",
+      "color_image_2_opacity": 0,
+      "color_image_1": "#000000",
+      "color_image_1_opacity": 26,
+      "color_small_image_bg": "#ffffff",
+      "color_large_image_bg": "#dedfe1",
+      "type_header_spacing": "50",
+      "type_header_font_family": "chivo_n7",
+      "type_header_base_size": 34,
+      "type_header_line_height": 1.2,
+      "type_header_accent_transform": true,
+      "type_base_font_family": "neuzeit_office_n4",
+      "type_base_spacing": "25",
+      "type_base_size": 16,
+      "type_base_line_height": 1.6,
+      "type_base_accent_transform": true,
+      "icon_weight": "2px",
+      "icon_linecaps": "round",
+      "animate_page_transitions": true,
+      "animate_page_transition_style": "page-slide-reveal-down",
+      "animate_sections": true,
+      "animate_sections_background_style": "zoom-fade",
+      "animate_sections_text_style": "rise-up",
+      "animate_images": true,
+      "animate_images_style": "fade-in",
+      "animate_buttons": true,
+      "animate_underlines": true,
+      "quick_shop_text": "Quick view",
+      "cart_type": "drawer",
+      "currency_format": "money_format",
+      "supported_currencies": "USD CAD INR GBP AUD EUR JPY",
+      "default_currency": "USD",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#111111",
+      "checkout_button_color": "#111111",
+      "checkout_error_color": "#ff6d6d",
+      "color_image_bg": "#000000",
+      "breadcrumb": true,
+      "color_sale_tag": "#990000",
+      "color_input": "#ffffff",
+      "checkout_banner_background_color": "#fff",
+      "checkout_call_to_action_color": "#a26b25",
+      "checkout_use_header_image": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "main_menu_link_list": "main-menu",
+            "sticky_index": false,
+            "sticky_collection": false,
+            "header_search_enable": false,
+            "show_announcement": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "1494292481350": {
+              "type": "logo_social",
+              "settings": {
+                "container_width": 20
+              }
+            },
+            "1494292485313": {
+              "type": "menu",
+              "settings": {
+                "menu": "main-menu",
+                "container_width": 20
+              }
+            },
+            "1494292487693": {
+              "type": "newsletter",
+              "settings": {
+                "container_width": 33
+              }
+            },
+            "1494301487049": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer",
+                "container_width": 20
+              }
+            }
+          },
+          "block_order": [
+            "1494292481350",
+            "1494301487049",
+            "1494292485313",
+            "1494292487693"
+          ],
+          "settings": {
+            "show_payment_icons": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "per_row": 4,
+            "collection_image_enable": true,
+            "collection_sort_enable": false
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "image_size": "medium",
+            "social_enable": true
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false,
+            "social_sharing_blog": true
+          }
+        },
+        "1498163293234": {
+          "type": "featured-content",
+          "settings": {
+            "divider": false
+          }
+        },
+        "1498501481980": {
+          "type": "fading-images",
+          "blocks": {
+            "1498501481980-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Beautifully animated",
+                "slide_title2": "titles and images"
+              }
+            },
+            "1498501481980-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "Use this section",
+                "slide_title2": "to impress"
+              }
+            },
+            "1498501481980-2": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "focal_point": "center center",
+                "slide_title1": "And highlight",
+                "slide_title2": "important details"
+              }
+            }
+          },
+          "block_order": [
+            "1498501481980-0",
+            "1498501481980-1",
+            "1498501481980-2"
+          ],
+          "settings": {
+            "slide_speed": 5,
+            "color_overlay": "#000",
+            "color_overlay_opacity": 30
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "blog_show_tag_filter": true,
+            "blog_show_rss": false,
+            "blog_show_tags": true,
+            "blog_show_date": true,
+            "blog_show_comments": true,
+            "blog_show_author": false
+          }
+        },
+        "1566999869051": {
+          "type": "featured-collection-switcher",
+          "settings": {}
+        },
+        "1499789718857": {
+          "type": "featured-collections",
+          "blocks": {
+            "1499789718857-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            },
+            "1499789718857-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "square-small"
+              }
+            },
+            "1499789718857-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "size": "wide"
+              }
+            }
+          },
+          "block_order": [
+            "1499789718857-0",
+            "1499789718857-1",
+            "1499789718857-2",
+            "1499789718857-3",
+            "1499789718857-4",
+            "1499789718857-5"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        },
+        "1499790529450": {
+          "type": "hero-video",
+          "settings": {
+            "title": "Bring your\nbrand to life.",
+            "title_size": 80,
+            "subheading": "Seamless hero videos",
+            "link_text": "",
+            "link": "",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "section_height": "650px"
+          }
+        },
+        "1499790633921": {
+          "type": "background-image-text",
+          "settings": {
+            "subtitle": "Impressive",
+            "title": "Large image and text",
+            "text": "<p>Pair large text with a full-width image to draw attention to an important detail of your brand or product line.<\/p>",
+            "button_label": "",
+            "button_link": "",
+            "image": "",
+            "color_border": "#f4f4f4",
+            "layout": "left",
+            "height": 650
+          }
+        },
+        "1499790731541": {
+          "type": "collection-callout",
+          "settings": {
+            "collection": "",
+            "subtitle": "Brand new",
+            "title": "Collection callout",
+            "text": "Use this section to easily call attention to one of your collections. We'll show photos of the first 5 products.",
+            "cta_text1": "Shop Jackets",
+            "cta_link1": "",
+            "cta_text2": "Shop All",
+            "cta_link2": "",
+            "divider": false
+          }
+        },
+        "1499790782828": {
+          "type": "text-columns",
+          "blocks": {
+            "1499790782828-0": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-1": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            },
+            "1499790782828-2": {
+              "type": "text_block",
+              "settings": {
+                "enable_image": true,
+                "image": "",
+                "title": "Example title",
+                "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+                "button_label": "",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1499790782828-0",
+            "1499790782828-1",
+            "1499790782828-2"
+          ],
+          "settings": {
+            "title": "",
+            "divider": false
+          }
+        }
+      },
+      "content_for_index": [
+        "1499790529450",
+        "1566999869051",
+        "1498163293234",
+        "1499789718857",
+        "1498501481980",
+        "1499790731541",
+        "1499790633921",
+        "1499790782828"
+      ]
+    }
+  }
+}

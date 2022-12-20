@@ -1,0 +1,139 @@
+<div class="sectionjumper" id="sectionjumper">
+  <i class="fa fa-chevron-up fa-2x sjdirection" id="sjup" onclick="topArrowJump()"></i>
+  <div id="sectionstojumpwrap">
+    
+  </div>
+  <i class="fa fa-chevron-down fa-2x sjdirection" id="sjdown" onclick="bottomArrowJump()"></i>
+</div>
+
+<style>
+  .sectionjumper {
+    position: fixed;
+    top: 35%;
+    z-index: 9;
+    /*max-width: 20px;
+    background: rgba(158, 154, 154, 0.5);*/
+    right: 20px;
+    text-align: center;
+    text-align: center;
+    min-height: 30px;
+  }
+  @media (max-width: 450px) {
+    .sectionjumper {
+      display: none;
+    }
+  }
+  /*#sectionstojumpwrap {
+    display: block;
+  }*/
+  .sectiontojump {
+    border: 1px solid #4a7d71;
+    border-radius: 50%;
+    display: block;
+    margin: 5px auto;
+  }
+  .sectiontojump.currentjump {
+    background-color: #4a7d71;
+  }
+  .sjdirection {
+    cursor: pointer;
+    color:#4a7d71;
+  }
+</style>
+
+<script>
+  const sctns = document.querySelectorAll('.shopify-section');
+
+  function arrangeSectionList() {
+    sctns.forEach(sc => {
+      document.getElementById('sectionstojumpwrap').innerHTML += '<svg height="10" width="10" class="sectiontojump"></svg> '
+    })
+  }
+
+  arrangeSectionList();
+
+  function checkPosition() {
+    const sectiontojump = document.querySelectorAll('.sectiontojump');
+    var lastindex = sectiontojump.length - 1;
+    var currentindex = 0;
+    sectiontojump.forEach(sctn => {
+      if (isInViewprt(sctn)) {
+        removeCurrentJump();
+        sectiontojump[currentindex].classList.add('currentjump');
+      };
+      currentindex++;
+    });
+  };
+
+  function removeCurrentJump() {
+    const sectiontojump = document.querySelectorAll('.sectiontojump');
+    sectiontojump.forEach(stj => {
+      stj.classList.remove('currentjump');
+    });
+  };
+
+  function topArrowJump(){
+    var sectionstojump = document.querySelectorAll('.sectiontojump');
+    var currentindex = 0;
+    sectionstojump.forEach(stj => {
+      if (currentindex > 0) {
+        if(stj.classList.contains('currentjump')){
+          var previndex = currentindex - 1;
+          removeCurrentJump();
+          sectionstojump[previndex].classList.add('currentjump');
+          var crid = sctns[previndex].getAttribute('id');
+          var intoview = document.getElementById(crid);
+          intoview.scrollIntoView();
+        };
+      };
+      currentindex++;
+    });
+  };
+
+  function bottomArrowJump(){
+    var sectionstojump = document.querySelectorAll('.sectiontojump');
+    var currentindex = 0;
+    var loopuse = 0;
+    const lastindex = sectionstojump.length -1;
+    sectionstojump.forEach(stj => {
+      if ((currentindex >= 0) || (currentindex < lastindex)) {
+        if(stj.classList.contains('currentjump')){
+          if (loopuse == 0) {
+            var nextindex = currentindex + 1;
+            removeCurrentJump();
+            sectionstojump[nextindex].classList.add('currentjump');
+            var crid = sctns[nextindex].getAttribute('id');
+            var intoview = document.getElementById(crid);
+            intoview.scrollIntoView();
+            loopuse++;
+          }
+        };
+      };
+      currentindex++;
+    });
+  }
+
+  function isInViewprt(elem) {
+    var bounding = elem.getBoundingClientRect();
+    return (
+        bounding.top >= 0 &&
+        bounding.left >= 0 &&
+        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  };
+
+  window.addEventListener("load", (event) => {
+    checkPosition();
+  });
+  //window.addEventListener("scroll", checkPosition);
+  //window.addEventListener("resize", checkPosition);
+  /*var timer = null;
+  window.addEventListener('scroll', function() {
+      if(timer !== null) {
+          clearTimeout(timer);        
+      }
+      timer = setTimeout(checkPosition, 150);
+  }, false);*/
+
+</script>

@@ -1,0 +1,278 @@
+{% include 'page-template-blocks' %}
+
+{% schema %}
+  {
+    "name": "Header section",
+    "blocks": [      
+      {
+        "type": "impact-page-hero",
+        "name": "Impact Image hero",
+        "settings": [
+          {
+            "type": "textarea",
+            "id": "title",
+            "label": "Heading",
+            "default": "One line title text"
+          },
+          {
+            "type": "range",
+            "id": "title_size",
+            "label": "Heading text size",
+            "default": 65,
+            "min": 40,
+            "max": 100,
+            "unit": "px"
+          },
+          {
+            "type": "text",
+            "id": "subheading",
+            "label": "Subheading",
+            "default": "And an optional subheading"
+          },
+          {
+            "type": "select",
+            "id": "text_align",
+            "label": "Text alignment",
+            "default": "vertical-center horizontal-center",
+            "options": [
+              {
+                "value": "vertical-center horizontal-left",
+                "label": "Center left"
+              },
+              {
+                "value": "vertical-center horizontal-center",
+                "label": "Center"
+              },
+              {
+                "value": "vertical-center horizontal-right",
+                "label": "Center right"
+              }
+            ]
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "focal_point",
+            "label": "Image focal point",
+            "info": "Used to keep the subject of your photo in view.",
+            "default": "center center",
+            "options": [
+              {
+                "value": "top left",
+                "label": "Top left"
+              },
+              {
+                "value": "top center",
+                "label": "Top center"
+              },
+              {
+                "value": "top right",
+                "label": "Top right"
+              },
+              {
+                "value": "center left",
+                "label": "Left"
+              },
+              {
+                "value": "center center",
+                "label": "Center"
+              },
+              {
+                "value": "center right",
+                "label": "Right"
+              },
+              {
+                "value": "bottom left",
+                "label": "Bottom left"
+              },
+              {
+                "value": "bottom center",
+                "label": "Bottom center"
+              },
+              {
+                "value": "bottom right",
+                "label": "Bottom right"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "section_height",
+            "label": "Desktop height",
+            "default": "650px",
+            "options": [
+              {
+                "label": "Natural",
+                "value": "natural"
+              },
+              {
+                "label": "450px",
+                "value": "450px"
+              },
+              {
+                "label": "550px",
+                "value": "550px"
+              },
+              {
+                "label": "650px",
+                "value": "650px"
+              },
+              {
+                "label": "750px",
+                "value": "750px"
+              },
+              {
+                "label": "Full screen",
+                "value": "100vh"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "mobile_height",
+            "label": "Mobile height",
+            "default": "auto",
+            "info": "Not used if desktop height is set to natural",
+            "options": [
+              {
+                "label": "Auto",
+                "value": "auto"
+              },
+              {
+                "label": "250px",
+                "value": "250px"
+              },
+              {
+                "label": "300px",
+                "value": "300px"
+              },
+              {
+                "label": "400px",
+                "value": "400px"
+              },
+              {
+                "label": "500px",
+                "value": "500px"
+              },
+              {
+                "label": "Full screen",
+                "value": "100vh"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "id": "parallax",
+            "label": "Enable parallax",
+            "default": true
+          },
+          {
+            "type": "header",
+            "content": "Page Sections"
+          },
+          {
+            "type": "text",
+            "id": "s1_text",
+            "label": "Section One",
+            "default": "Section One"
+          },
+          {
+            "type": "text",
+            "id": "s1_handle",
+            "label": "Section one handle",
+            "default": "section-one",
+            "info": "Lowercase letters and without spaces. Use only a-z, 0-9, - and _ characters only!"
+          },
+          {
+            "type": "text",
+            "id": "s2_text",
+            "label": "Section Two",
+            "default": "Section Two"
+          },
+          {
+            "type": "text",
+            "id": "s2_handle",
+            "label": "Section two handle",
+            "default": "section-two",
+            "info": "Lowercase letters and without spaces. Use only a-z, 0-9, - and _ characters only!"
+          },
+          {
+            "type": "text",
+            "id": "s3_text",
+            "label": "Section Three",
+            "default": "Section Three"
+          },
+          {
+            "type": "text",
+            "id": "s3_handle",
+            "label": "Section three handle",
+            "default": "section-three",
+            "info": "Lowercase letters and without spaces. Use only a-z, 0-9, - and _ characters only!"
+          },
+          {
+            "type": "text",
+            "id": "s4_text",
+            "label": "Section Four",
+            "default": "Section Four"
+          },
+          {
+            "type": "text",
+            "id": "s4_handle",
+            "label": "Section four handle",
+            "default": "section-four",
+            "info": "Lowercase letters and without spaces. Use only a-z, 0-9, - and _ characters only!"
+          }
+        ]
+      },
+      {
+        "type": "rich-text",
+        "name": "Rich text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Rich text block"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.</p>"
+          },
+          {
+            "type": "select",
+            "id": "align_text",
+            "label": "Text alignment",
+            "default": "left",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "center",
+                "label": "Centered"
+              }
+            ]
+          },
+          {
+            "type": "checkbox",
+            "id": "narrow_column",
+            "label": "Narrow column",
+            "default": true
+          },
+          {
+            "type": "checkbox",
+            "id": "enlarge_text",
+            "label": "Enlarge text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

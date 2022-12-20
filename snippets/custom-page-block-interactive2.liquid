@@ -1,0 +1,142 @@
+{% assign bgcolor = block.settings.entry_list_bg%}
+{% assign textcolor = block.settings.entry_list_textcolor %}
+{% assign entryoneheading = block.settings.entry_one_heading %}
+{% assign entryonedesc = block.settings.entry_one_desc %}
+{% assign entrytwoheading = block.settings.entry_two_heading %}
+{% assign entrytwodesc = block.settings.entry_two_desc %}
+{% assign entrythreeheading = block.settings.entry_three_heading %}
+{% assign entrythreedesc = block.settings.entry_three_desc %}
+{% assign entryfourheading = block.settings.entry_four_heading %}
+{% assign entryfourdesc = block.settings.entry_four_desc %}
+
+
+{% style %}
+.c_logo_list {
+    background: {%- if bgcolor -%}{{bgcolor}}{%- endif -%};
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.logo-bar__item, #section-header {
+    transition: 0.5s
+}
+{% endstyle %}
+
+<script type="text/javascript">
+    function changeHeading(text)
+    {
+        var display = document.getElementById('entryheading');
+        display.innerHTML = "";
+        display.innerHTML = text;
+    }
+
+    function changeText(text)
+    {
+        var display = document.getElementById('entrytext');
+        display.innerHTML = "";
+        display.innerHTML = text;
+    }
+
+</script>
+
+<div class="c_logo_list text-center" data-aos="logo__animation">
+    <div class="section-header">
+        <h2 class="section-header__title" style="{%- if textcolor -%} color: {{textcolor}}; {%- endif -%}" id="entryheading">{{ block.settings.entry_one_heading | escape }}</h2>
+        <p style="margin-top: 10px;{%- if textcolor -%} color: {{textcolor}}; {%- endif -%}" id="entrytext"> {{block.settings.entry_one_desc}}</p>
+    </div>
+  
+    <div class="logo-bar logo-bar--{{ section.id }}">
+        {%- if block.settings.entry_one_show == true -%}
+            <div class="logo-bar__item" {{ block.shopify_attributes }} onmouseover="changeHeading('{{entryoneheading}}'); changeText('{{entryonedesc}}')">
+                {% if block.settings.entry_one_link != blank %}
+                    <a href="{{ block.settings.entry_one_link }}" class="logo-bar__link">
+                {% endif %}
+                {% if block.settings.entry_one_img != blank %}
+                    {%- assign img_url = block.settings.entry_one_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="logo-bar__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720]"
+                        data-aspectratio="{{ block.settings.entry_one_img.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.entry_one_img.alt }}">
+                {% else %}
+                    {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                {% if block.settings.entry_one_link != blank %}
+                    </a>
+                {% endif %}
+            </div>
+        {%- endif -%}
+
+        {%- if block.settings.entry_two_show == true -%}
+            <div class="logo-bar__item" {{ block.shopify_attributes }} onmouseover="changeHeading('{{entrytwoheading}}'); changeText('{{entrytwodesc}}')">
+                {% if block.settings.entry_two_link != blank %}
+                    <a href="{{ block.settings.entry_two_link }}" class="logo-bar__link">
+                {% endif %}
+                {% if block.settings.entry_two_img != blank %}
+                    {%- assign img_url = block.settings.entry_two_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="logo-bar__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720]"
+                        data-aspectratio="{{ block.settings.entry_two_img.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.entry_two_img.alt }}">
+                {% else %}
+                    {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                {% if block.settings.entry_two_link != blank %}
+                    </a>
+                {% endif %}
+            </div>
+        {%- endif -%}
+
+        {%- if block.settings.entry_three_show == true -%}
+            <div class="logo-bar__item" {{ block.shopify_attributes }} onmouseover="changeHeading('{{entrythreeheading}}'); changeText('{{entrythreedesc}}')">
+                {% if block.settings.entry_three_link != blank %}
+                    <a href="{{ block.settings.entry_three_link }}" class="logo-bar__link">
+                {% endif %}
+                {% if block.settings.entry_three_img != blank %}
+                    {%- assign img_url = block.settings.entry_three_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="logo-bar__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720]"
+                        data-aspectratio="{{ block.settings.entry_three_img.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.entry_three_img.alt }}">
+                {% else %}
+                    {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                {% if block.settings.entry_three_link != blank %}
+                    </a>
+                {% endif %}
+            </div>
+        {%- endif -%}
+
+        {%- if block.settings.entry_four_show == true -%}
+            <div class="logo-bar__item" {{ block.shopify_attributes }} onmouseover="changeHeading('{{entryfourheading}}'); changeText('{{entryfourdesc}}')">
+                {% if block.settings.entry_four_link != blank %}
+                    <a href="{{ block.settings.entry_four_link }}" class="logo-bar__link">
+                {% endif %}
+                {% if block.settings.entry_four_img != blank %}
+                    {%- assign img_url = block.settings.entry_four_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="logo-bar__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720]"
+                        data-aspectratio="{{ block.settings.entry_four_img.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.entry_four_img.alt }}">
+                {% else %}
+                    {{ 'logo' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+                {% if block.settings.entry_four_link != blank %}
+                    </a>
+                {% endif %}
+            </div>
+        {%- endif -%}
+
+        
+    </div>
+  
+  {% if block.settings.entry_button_show == true %}
+        <a class="btn" style="margin-top:30px;" href="{{block.settings.entry_button_link}}" {% if block.settings.entry_button_nt == true %}target="_blank"{% endif %}>{{block.settings.entry_button_text}}</a>
+    {% endif %}
+</div>

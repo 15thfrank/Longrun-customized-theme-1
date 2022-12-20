@@ -1,0 +1,27 @@
+{% section 'page-sections-custom-collections' %}
+
+<script>
+    function getFixHeight() {
+      let divProp = document.querySelector('.grid-product__link');
+      let divHeight = divProp.clientHeight;
+  
+      const colws = document.querySelectorAll('.custom-coll-w-banner');
+      for (let index = 0; index < colws.length; index++) {
+        colws[index].style.height = divHeight+"px";
+      }
+    }
+    getFixHeight();
+    window.addEventListener("load", getFixHeight);
+    window.addEventListener("resize", getFixHeight);
+    
+    const watchNodes = document.getElementById('shopify-section-page-sections-custom-collections');
+    const configSets = { attributes: true, childList: true, subtree: true };
+    const callBackWatch = function(mutationsList, observer) {
+      for(const mutation of mutationsList) {
+          getFixHeight()
+      }
+    };
+    const observationDeck = new MutationObserver(callBackWatch);
+    observationDeck.observe(watchNodes, configSets);
+    
+  </script>

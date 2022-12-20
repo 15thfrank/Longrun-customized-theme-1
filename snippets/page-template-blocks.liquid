@@ -1,0 +1,92 @@
+{% comment %}
+  This file handles each block available on product.sections or page.sections templates.
+  Each block is a near identical duplicate of a section also available on the home page.
+  Exception is sections that had blocks become hard coded options.
+{% endcomment %}
+<div class="page-blocks">
+  {% for block in section.blocks %}
+    <div {{ block.shopify_attributes }}>
+      {% case block.type %}
+
+        {% when 'contact-form' %}
+          {% include 'page-block-contact-form' %}
+
+        {% when 'custom-html' %}
+          {% include 'page-block-custom-html' %}
+
+        {% when 'background-image-text' %}
+          {% include 'page-block-background-image-text' %}
+
+        {% when 'hero-video' %}
+          {% include 'page-block-hero-video' %}
+
+        {% when 'image-hero' %}
+          {% include 'page-block-image-hero' %}
+
+        {% when 'image-row' %}
+          {% include 'page-block-image-row' %}
+
+        {% when 'rich-text'%}
+          {% include 'page-block-rich-text' %}
+
+        {% when 'text-and-image' %}
+          {% include 'page-block-text-and-image' %}
+
+        {% when 'text-columns' %}
+          {% include 'page-block-text-columns' %}
+
+        {% when 'testimonials' %}
+          {% include 'page-block-testimonials' %}
+
+        {% when 'map' %}
+          {% include 'page-block-map' %}
+
+        {% when 'featured-collection' %}
+          {% include 'page-block-featured-collection' %}
+
+        {% when 'fading-images' %}
+          {% include 'page-block-fading-images' %}
+        
+        {% when 'interactive-section-t2' %}
+          {% include 'custom-page-block-interactive2' %}
+          
+        {% when 'custom-block-materials' %}
+          {% include 'custom-page-block-materials' %}
+
+        {% when 'custom-block-buttons' %}
+          {% include 'custom-page-block-buttons' %}
+      
+      	{% when 'custom-block-st-img' %}
+          {% include 'custom-page-block-st-img' %}
+        
+        {% when 'custom-block-bg-ov-img' %}
+          {% include 'custom-page-img-w-overlay-text' %}
+      
+      	{% when 'custom-block-single-btn' %}
+          {% include 'custom-page-block-single-btn' %}
+      
+        {% when 'rich-text-button' %}
+          {% include 'custom-block-rich-text-btn' %}
+        
+        {% when 'custom-block-img-title' %}
+          {% include 'custom-page-block-img-w-title' %}
+        
+        {% when 'custom-block-img-text' %}
+          {% include 'custom-page-block-img-w-text' %}
+        
+        {% when 'impact-page-hero' %}
+          {% include 'custom-page-block-impact-page-hero' %}
+
+        {% when 'title-text-image' %}
+          {% include 'custom-page-block-title-img-text' %}
+        
+        {% when 'cust-blk-img-tit-rtext' %}
+          {% include 'custom-page-block-img-w-title-rtext' %}
+        
+        {% when 'banner-with-products' %}
+          {% include 'custom-page-block-banner-with-products' %}
+        
+      {% endcase %}
+    </div>
+  {% endfor %}
+</div>

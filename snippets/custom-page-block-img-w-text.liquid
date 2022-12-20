@@ -1,0 +1,27 @@
+<div class="index-section ">
+    <div class="page-width">
+      <div class="grid text-center">
+        <div class="grid__item medium-up--three-quarters medium-up--push-one-eighth">
+            <div class="rte">
+              <div class="enlarge-text">
+                {% if block.settings.img != blank %}
+                    {%- assign img_url = block.settings.img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                    <img class="cus-st-img lazyload"
+                        src="{{ img_url }}"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540]"
+                        data-aspectratio="{{ block.settings.img.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.img.alt }}">
+                {% else %}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {% endif %}
+              </div>
+              <div {% if block.settings.largetext == true %}class="enlarge-text"{% endif %} style="margin-top: 10px;">
+                <p style="text-align:{{block.settings.textalign}};">{{ block.settings.text }}</p>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,709 @@
+{% assign materialone = block.settings.material_one %}
+{% assign materialonec1heading = block.settings.material_one_cone_heading %}
+{% assign materialonec1subheading = block.settings.material_one_cone_subheading %}
+{% assign materialonec1desc = block.settings.material_one_cone_desc %}
+{% assign materialonec2heading = block.settings.material_one_ctwo_heading %}
+{% assign materialonec2subheading = block.settings.material_one_ctwo_subheading %}
+{% assign materialonec2desc = block.settings.material_one_ctwo_desc %}
+
+{% assign materialtwo = block.settings.material_two %}
+{% assign materialtwoc1heading = block.settings.material_two_cone_heading %}
+{% assign materialtwoc1subheading = block.settings.material_two_cone_subheading %}
+{% assign materialtwoc1desc = block.settings.material_two_cone_desc %}
+{% assign materialtwoc2heading = block.settings.material_two_ctwo_heading %}
+{% assign materialtwoc2subheading = block.settings.material_two_ctwo_subheading %}
+{% assign materialtwoc2desc = block.settings.material_two_ctwo_desc %}
+
+{% assign materialthree= block.settings.material_three %}
+{% assign materialthreec1heading = block.settings.material_three_cone_heading %}
+{% assign materialthreec1subheading = block.settings.material_three_cone_subheading %}
+{% assign materialthreec1desc = block.settings.material_three_cone_desc %}
+{% assign materialthreec2heading = block.settings.material_three_ctwo_heading %}
+{% assign materialthreec2subheading = block.settings.material_three_ctwo_subheading %}
+{% assign materialthreec2desc = block.settings.material_three_ctwo_desc %}
+
+{% assign materialfour = block.settings.material_four %}
+{% assign materialfourc1heading = block.settings.material_four_cone_heading %}
+{% assign materialfourc1subheading = block.settings.material_four_cone_subheading %}
+{% assign materialfourc1desc = block.settings.material_four_cone_desc %}
+{% assign materialfourc2heading = block.settings.material_four_ctwo_heading %}
+{% assign materialfourc2subheading = block.settings.material_four_ctwo_subheading %}
+{% assign materialfourc2desc = block.settings.material_four_ctwo_desc %}
+
+{% assign materialfive = block.settings.material_five %}
+{% assign materialfivec1heading = block.settings.material_five_cone_heading %}
+{% assign materialfivec1subheading = block.settings.material_five_cone_subheading %}
+{% assign materialfivec1desc = block.settings.material_five_cone_desc %}
+{% assign materialfivec2heading = block.settings.material_five_ctwo_heading %}
+{% assign materialfivec2subheading = block.settings.material_five_ctwo_subheading %}
+{% assign materialfivec2desc = block.settings.material_five_ctwo_desc %}
+
+{% assign materialsix = block.settings.material_six %}
+{% assign materialsixc1heading = block.settings.material_six_cone_heading %}
+{% assign materialsixc1subheading = block.settings.material_six_cone_subheading %}
+{% assign materialsixc1desc = block.settings.material_six_cone_desc %}
+{% assign materialsixc2heading = block.settings.material_six_ctwo_heading %}
+{% assign materialsixc2subheading = block.settings.material_six_ctwo_subheading %}
+{% assign materialsixc2desc = block.settings.material_six_ctwo_desc %}
+
+{% assign materialseven = block.settings.material_seven %}
+{% assign materialsevenc1heading = block.settings.material_seven_cone_heading %}
+{% assign materialsevenc1subheading = block.settings.material_seven_cone_subheading %}
+{% assign materialsevenc1desc = block.settings.material_seven_cone_desc %}
+{% assign materialsevenc2heading = block.settings.material_seven_ctwo_heading %}
+{% assign materialsevenc2subheading = block.settings.material_seven_ctwo_subheading %}
+{% assign materialsevenc2desc = block.settings.material_seven_ctwo_desc %}
+
+
+<style>
+  .shoematerials {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  #shoematerials button:hover, #shoematerials button.active, .matlinks.current {
+    background-color: #4a7d71;
+    color: #f4f4f4;
+  }
+  
+  .singledesc {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    animation: fadeEffect 1s;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+
+  @keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  .singledesc.current {
+    display: inherit;
+    margin-top: 20px;
+  }
+
+  #shoematerials {
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .matlinks {
+    padding: 10px;
+    border: 1px solid #4a7d71;
+    margin-top: 10px;
+  }
+  .section-header {
+    margin-bottom: 10px;
+  }
+  .feature-row.aos-init.aos-animate {margin-top: 30px;}
+</style>
+
+<div class="index-section">
+    <div class="page-width" style="padding-bottom: 20px;padding-bottom: 20px;border: 1px solid #4a7d71;padding-top: 20px;border-radius: 15px;">
+      	{% if block.settings.title %}
+          <div class="section-header">
+            <h2 class="section-header__title">{{block.settings.title}}</h2>
+          </div>
+        {% endif %}
+        <div id="shoematerials">
+            {% if block.settings.material_one_show == true %}
+            <button class="matlinks current" data-tab="materialone">{{materialone}} </button>
+            {% endif %}
+            {% if block.settings.material_two_show == true %}
+            <button class="matlinks" data-tab="materialtwo">{{materialtwo}} </button>
+            {% endif %}
+            {% if block.settings.material_three_show == true %}
+            <button class="matlinks" data-tab="materialthree">{{materialthree}} </button>
+            {% endif %}
+            {% if block.settings.material_four_show == true %}
+            <button class="matlinks" data-tab="materialfour">{{materialfour}} </button>
+            {% endif %}
+            {% if block.settings.material_five_show == true %}
+            <button class="matlinks" data-tab="materialfive">{{materialfive}} </button>
+            {% endif %}
+            {% if block.settings.material_six_show == true %}
+            <button class="matlinks" data-tab="materialsix">{{materialsix}} </button>
+            {% endif %}
+            {% if block.settings.material_seven_show == true %}
+            <button class="matlinks" data-tab="materialseven">{{materialseven}} </button>
+            {% endif %}
+
+        </div>
+        
+        <div class="feature-row materialdescription" data-aos>
+            <!-- Material one-->
+            {% if block.settings.material_one_show == true %}
+            <div id="materialone" class="singledesc current" style="flex-wrap: wrap;">
+              <div class="feature-row aos-init aos-animate">
+                <div class="feature-row__item">
+                    <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                      {% if block.settings.material_one_cone_img != blank %}
+                        <div class="image-wrap">
+                          {%- assign materialonec1img = block.settings.material_one_cone_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="feature-row__image lazyload"
+                              data-src="{{ materialonec1img }}"
+                              data-widths="[180, 360, 540, 720, 900, 1080]"
+                              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.image.alt }}">
+                        </div>
+                      {% else %}
+                        <div class="image-wrap">
+                          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        </div>
+                      {% endif %}
+                    </div>
+                </div>
+          
+                <div class="feature-row__item feature-row__text feature-row__text--left larger-text">
+                  {% if materialonec1subheading != blank %}
+                    <p class="subtitle">{{ materialonec1subheading }}</p>
+                  {% endif %}
+                  {% if materialonec1heading != blank %}
+                    <h2 class="h3">{{ materialonec1heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialonec1desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialonec1desc}}</div>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="feature-row aos-init aos-animate">
+
+                <!-- Second content-->
+                <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+                  {% if materialonec2subheading != blank %}
+                    <p class="subtitle">{{ materialonec2subheading }}</p>
+                  {% endif %}
+                  {% if materialonec2heading != blank %}
+                    <h2 class="h3">{{ materialonec2heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialonec2desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialonec2desc}}</div>
+                  {% endif %}
+                </div>
+
+                <div class="feature-row__item">
+                  <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                    {% if block.settings.material_one_ctwo_img != blank %}
+                      <div class="image-wrap">
+                        {%- assign materialonec2img = block.settings.material_one_ctwo_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img class="feature-row__image lazyload"
+                            data-src="{{ materialonec2img }}"
+                            data-widths="[180, 360, 540, 720, 900, 1080]"
+                            data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                            data-sizes="auto"
+                            alt="{{ block.settings.image.alt }}">
+                      </div>
+                    {% else %}
+                      <div class="image-wrap">
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            {% endif %}
+            <!-- Material one end-->
+
+            <!-- Material two-->
+            {% if block.settings.material_two_show == true %}
+            <div id="materialtwo" class="singledesc " style="flex-wrap: wrap;">
+              <div class="feature-row aos-init aos-animate" style="flex-wrap: wrap;">
+                <div class="feature-row__item">
+                    <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                      {% if block.settings.material_two_cone_img != blank %}
+                        <div class="image-wrap">
+                          {%- assign materialtwoc1img = block.settings.material_two_cone_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="feature-row__image lazyload"
+                              data-src="{{ materialonec1img }}"
+                              data-widths="[180, 360, 540, 720, 900, 1080]"
+                              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.image.alt }}">
+                        </div>
+                      {% else %}
+                        <div class="image-wrap">
+                          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        </div>
+                      {% endif %}
+                    </div>
+                </div>
+          
+                <div class="feature-row__item feature-row__text feature-row__text--left larger-text">
+                  {% if materialtwoc1subheading != blank %}
+                    <p class="subtitle">{{ materialtwoc1subheading }}</p>
+                  {% endif %}
+                  {% if materialtwoc1heading != blank %}
+                    <h2 class="h3">{{ materialtwoc1heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialtwoc1desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialtwoc1desc}}</div>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="feature-row aos-init aos-animate">
+
+                <!-- Second content-->
+                <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+                  {% if materialtwoc2subheading != blank %}
+                    <p class="subtitle">{{ materialtwoc2subheading }}</p>
+                  {% endif %}
+                  {% if materialtwoc2heading != blank %}
+                    <h2 class="h3">{{ materialtwoc2heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialtwoc2desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialtwoc2desc}}</div>
+                  {% endif %}
+                </div>
+
+                <div class="feature-row__item">
+                  <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                    {% if block.settings.material_two_ctwo_img != blank %}
+                      <div class="image-wrap">
+                        {%- assign materialtwoc2img = block.settings.material_two_ctwo_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img class="feature-row__image lazyload"
+                            data-src="{{ materialtwoc2img }}"
+                            data-widths="[180, 360, 540, 720, 900, 1080]"
+                            data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                            data-sizes="auto"
+                            alt="{{ block.settings.image.alt }}">
+                      </div>
+                    {% else %}
+                      <div class="image-wrap">
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            {% endif %}
+            <!-- Material two end-->
+
+            <!-- Material three-->
+            {% if block.settings.material_three_show == true %}
+            <div id="materialthree" class="singledesc " style="flex-wrap: wrap;">
+              <div class="feature-row aos-init aos-animate" style="flex-wrap: wrap;">
+                <div class="feature-row__item">
+                    <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                      {% if block.settings.material_three_cone_img != blank %}
+                        <div class="image-wrap">
+                          {%- assign materialthreec1img = block.settings.material_three_cone_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="feature-row__image lazyload"
+                              data-src="{{ materialonec1img }}"
+                              data-widths="[180, 360, 540, 720, 900, 1080]"
+                              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.image.alt }}">
+                        </div>
+                      {% else %}
+                        <div class="image-wrap">
+                          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        </div>
+                      {% endif %}
+                    </div>
+                </div>
+          
+                <div class="feature-row__item feature-row__text feature-row__text--left larger-text">
+                  {% if materialthreec1subheading != blank %}
+                    <p class="subtitle">{{ materialthreec1subheading }}</p>
+                  {% endif %}
+                  {% if materialthreec1heading != blank %}
+                    <h2 class="h3">{{ materialthreec1heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialthreec1desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialthreec1desc}}</div>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="feature-row aos-init aos-animate">
+
+                <!-- Second content-->
+                <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+                  {% if materialthreec2subheading != blank %}
+                    <p class="subtitle">{{ materialthreec2subheading }}</p>
+                  {% endif %}
+                  {% if materialthreec2heading != blank %}
+                    <h2 class="h3">{{ materialthreec2heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialthreec2desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialthreec2desc}}</div>
+                  {% endif %}
+                </div>
+
+                <div class="feature-row__item">
+                  <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                    {% if block.settings.material_three_ctwo_img != blank %}
+                      <div class="image-wrap">
+                        {%- assign materialthreec2img = block.settings.material_three_ctwo_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img class="feature-row__image lazyload"
+                            data-src="{{ materialthreec2img }}"
+                            data-widths="[180, 360, 540, 720, 900, 1080]"
+                            data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                            data-sizes="auto"
+                            alt="{{ block.settings.image.alt }}">
+                      </div>
+                    {% else %}
+                      <div class="image-wrap">
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            {% endif %}
+            <!-- Material three end-->
+
+            <!-- Material four-->
+            {% if block.settings.material_four_show == true %}
+            <div id="materialfour" class="singledesc " style="flex-wrap: wrap;">
+              <div class="feature-row aos-init aos-animate" style="flex-wrap: wrap;">
+                <div class="feature-row__item">
+                    <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                      {% if block.settings.material_four_cone_img != blank %}
+                        <div class="image-wrap">
+                          {%- assign materialfourc1img = block.settings.material_four_cone_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="feature-row__image lazyload"
+                              data-src="{{ materialonec1img }}"
+                              data-widths="[180, 360, 540, 720, 900, 1080]"
+                              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.image.alt }}">
+                        </div>
+                      {% else %}
+                        <div class="image-wrap">
+                          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        </div>
+                      {% endif %}
+                    </div>
+                </div>
+          
+                <div class="feature-row__item feature-row__text feature-row__text--left larger-text">
+                  {% if materialfourc1subheading != blank %}
+                    <p class="subtitle">{{ materialfourc1subheading }}</p>
+                  {% endif %}
+                  {% if materialfourc1heading != blank %}
+                    <h2 class="h3">{{ materialfourc1heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialfourc1desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialfourc1desc}}</div>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="feature-row aos-init aos-animate">
+
+                <!-- Second content-->
+                <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+                  {% if materialfourc2subheading != blank %}
+                    <p class="subtitle">{{ materialfourc2subheading }}</p>
+                  {% endif %}
+                  {% if materialfourc2heading != blank %}
+                    <h2 class="h3">{{ materialfourc2heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialfourc2desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialfourc2desc}}</div>
+                  {% endif %}
+                </div>
+
+                <div class="feature-row__item">
+                  <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                    {% if block.settings.material_four_ctwo_img != blank %}
+                      <div class="image-wrap">
+                        {%- assign materialfourc2img = block.settings.material_four_ctwo_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img class="feature-row__image lazyload"
+                            data-src="{{ materialfourc2img }}"
+                            data-widths="[180, 360, 540, 720, 900, 1080]"
+                            data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                            data-sizes="auto"
+                            alt="{{ block.settings.image.alt }}">
+                      </div>
+                    {% else %}
+                      <div class="image-wrap">
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            {% endif %}
+            <!-- Material four end-->
+
+            <!-- Material five-->
+            {% if block.settings.material_five_show == true %}
+            <div id="materialfive" class="singledesc " style="flex-wrap: wrap;">
+              <div class="feature-row aos-init aos-animate" style="flex-wrap: wrap;">
+                <div class="feature-row__item">
+                    <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                      {% if block.settings.material_five_cone_img != blank %}
+                        <div class="image-wrap">
+                          {%- assign materialfivec1img = block.settings.material_five_cone_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="feature-row__image lazyload"
+                              data-src="{{ materialonec1img }}"
+                              data-widths="[180, 360, 540, 720, 900, 1080]"
+                              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.image.alt }}">
+                        </div>
+                      {% else %}
+                        <div class="image-wrap">
+                          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        </div>
+                      {% endif %}
+                    </div>
+                </div>
+          
+                <div class="feature-row__item feature-row__text feature-row__text--left larger-text">
+                  {% if materialfivec1subheading != blank %}
+                    <p class="subtitle">{{ materialfivec1subheading }}</p>
+                  {% endif %}
+                  {% if materialfivec1heading != blank %}
+                    <h2 class="h3">{{ materialfivec1heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialfivec1desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialfivec1desc}}</div>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="feature-row aos-init aos-animate">
+
+                <!-- Second content-->
+                <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+                  {% if materialfivec2subheading != blank %}
+                    <p class="subtitle">{{ materialfivec2subheading }}</p>
+                  {% endif %}
+                  {% if materialfivec2heading != blank %}
+                    <h2 class="h3">{{ materialfivec2heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialfivec2desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialfivec2desc}}</div>
+                  {% endif %}
+                </div>
+
+                <div class="feature-row__item">
+                  <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                    {% if block.settings.material_five_ctwo_img != blank %}
+                      <div class="image-wrap">
+                        {%- assign materialfivec2img = block.settings.material_five_ctwo_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img class="feature-row__image lazyload"
+                            data-src="{{ materialfivec2img }}"
+                            data-widths="[180, 360, 540, 720, 900, 1080]"
+                            data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                            data-sizes="auto"
+                            alt="{{ block.settings.image.alt }}">
+                      </div>
+                    {% else %}
+                      <div class="image-wrap">
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            {% endif %}
+            <!-- Material five end-->
+
+            <!-- Material six-->
+            {% if block.settings.material_six_show == true %}
+            <div id="materialsix" class="singledesc " style="flex-wrap: wrap;">
+              <div class="feature-row aos-init aos-animate" style="flex-wrap: wrap;">
+                <div class="feature-row__item">
+                    <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                      {% if block.settings.material_six_cone_img != blank %}
+                        <div class="image-wrap">
+                          {%- assign materialsixc1img = block.settings.material_six_cone_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="feature-row__image lazyload"
+                              data-src="{{ materialonec1img }}"
+                              data-widths="[180, 360, 540, 720, 900, 1080]"
+                              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.image.alt }}">
+                        </div>
+                      {% else %}
+                        <div class="image-wrap">
+                          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        </div>
+                      {% endif %}
+                    </div>
+                </div>
+          
+                <div class="feature-row__item feature-row__text feature-row__text--left larger-text">
+                  {% if materialsixc1subheading != blank %}
+                    <p class="subtitle">{{ materialsixc1subheading }}</p>
+                  {% endif %}
+                  {% if materialsixc1heading != blank %}
+                    <h2 class="h3">{{ materialsixc1heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialsixc1desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialsixc1desc}}</div>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="feature-row aos-init aos-animate">
+
+                <!-- Second content-->
+                <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+                  {% if materialsixc2subheading != blank %}
+                    <p class="subtitle">{{ materialsixc2subheading }}</p>
+                  {% endif %}
+                  {% if materialsixc2heading != blank %}
+                    <h2 class="h3">{{ materialsixc2heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialsixc2desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialsixc2desc}}</div>
+                  {% endif %}
+                </div>
+
+                <div class="feature-row__item">
+                  <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                    {% if block.settings.material_six_ctwo_img != blank %}
+                      <div class="image-wrap">
+                        {%- assign materialsixc2img = block.settings.material_six_ctwo_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img class="feature-row__image lazyload"
+                            data-src="{{ materialsixc2img }}"
+                            data-widths="[180, 360, 540, 720, 900, 1080]"
+                            data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                            data-sizes="auto"
+                            alt="{{ block.settings.image.alt }}">
+                      </div>
+                    {% else %}
+                      <div class="image-wrap">
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            {% endif %}
+            <!-- Material six end-->
+
+            <!-- Material seven-->
+            {% if block.settings.material_seven_show == true %}
+            <div id="materialseven" class="singledesc " style="flex-wrap: wrap;">
+              <div class="feature-row aos-init aos-animate" style="flex-wrap: wrap;">
+                <div class="feature-row__item">
+                    <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                      {% if block.settings.material_seven_cone_img != blank %}
+                        <div class="image-wrap">
+                          {%- assign materialsevenc1img = block.settings.material_seven_cone_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                          <img class="feature-row__image lazyload"
+                              data-src="{{ materialonec1img }}"
+                              data-widths="[180, 360, 540, 720, 900, 1080]"
+                              data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                              data-sizes="auto"
+                              alt="{{ block.settings.image.alt }}">
+                        </div>
+                      {% else %}
+                        <div class="image-wrap">
+                          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                        </div>
+                      {% endif %}
+                    </div>
+                </div>
+          
+                <div class="feature-row__item feature-row__text feature-row__text--left larger-text">
+                  {% if materialsevenc1subheading != blank %}
+                    <p class="subtitle">{{ materialsevenc1subheading }}</p>
+                  {% endif %}
+                  {% if materialsevenc1heading != blank %}
+                    <h2 class="h3">{{ materialsevenc1heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialsevenc1desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialsevenc1desc}}</div>
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="feature-row aos-init aos-animate">
+
+                <!-- Second content-->
+                <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+                  {% if materialsevenc2subheading != blank %}
+                    <p class="subtitle">{{ materialsevenc2subheading }}</p>
+                  {% endif %}
+                  {% if materialsevenc2heading != blank %}
+                    <h2 class="h3">{{ materialsevenc2heading | escape }}</h2>
+                  {% endif %}
+                  {% if materialsevenc2desc != blank %}
+                    <div class="rte featured-row__subtext" id="materialdesc">{{materialsevenc2desc}}</div>
+                  {% endif %}
+                </div>
+
+                <div class="feature-row__item">
+                  <div style="margin: 0 auto; max-width: {{ block.settings.image_width }}px;">
+                    {% if block.settings.material_seven_ctwo_img != blank %}
+                      <div class="image-wrap">
+                        {%- assign materialsevenc2img = block.settings.material_seven_ctwo_img | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                        <img class="feature-row__image lazyload"
+                            data-src="{{ materialsevenc2img }}"
+                            data-widths="[180, 360, 540, 720, 900, 1080]"
+                            data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                            data-sizes="auto"
+                            alt="{{ block.settings.image.alt }}">
+                      </div>
+                    {% else %}
+                      <div class="image-wrap">
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            {% endif %}
+            <!-- Material seven end-->
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+  var tabbedContent = function() {
+    //get all tab link elements
+    var tab = document.getElementsByClassName("matlinks");
+    //get all tab content elements
+    var tabContent = document.getElementsByClassName("singledesc");
+    //loop through each tab
+    for (var i = 0; i < tab.length; i++) {
+      //add click event listener to all tab links
+      tab[i].addEventListener('click', function() {
+        //each time tab clicked remove all current classes
+        //remove 'current' class from all tabs
+        for (var i = 0; i < tab.length; i++) {
+          tab[i].classList.remove('current');
+        };
+        //remove 'current' class from all tab content
+        for (var i = 0; i < tabContent.length; i++) {
+          tabContent[i].classList.remove('current');
+        };
+        //add current class back to the clicked tab
+        this.className += ' current';
+        //get data-tab attribute of what has been clicked
+        var matchingTab = this.getAttribute('data-tab');
+        //add current class to the tabContent element thats id matches the data-tab of the clicked tab
+        document.getElementById(matchingTab).className += ' current';
+      }, false);
+    }
+  }
+  tabbedContent();
+</script>
